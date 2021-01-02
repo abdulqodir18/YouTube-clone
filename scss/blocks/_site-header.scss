@@ -1,0 +1,62 @@
+.site-header {
+  position: fixed;
+  margin-top: -90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 32px;
+  padding-right: 70px;
+  background-color: #ffffff;
+}
+.site-header__btn {
+  position: relative;
+  padding: 0;
+  border: none;
+  width: 20px;
+  height: 17px;
+  background-image: url('../img/Menu.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-right: 28px;
+  
+  &::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-30%, -30%);
+  }
+}
+.site-nav__user-link {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+.site-nav__user-link-img {
+  border-radius: 50%;
+  display: block;
+  min-width: 40px;
+  height: 40px;
+}
+
+@media only screen and (max-width:1450px) {
+  .site-header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width:600px) {
+  .site-header__btn {
+    display: none;
+  }
+  .site-nav__user-link-img {
+    margin-left: 24px;
+  }
+}

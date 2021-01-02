@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <h1 class="visually-hidden">YouTube</h1>
+  <header class="site-header">
+    <button class="site-header__btn" type="button" aria-label="menu button"></button>
+    
+    <nav class="site-hader__nav site-nav">
+      <a class="site-nav__logo" href="#">
+        <img class="site-nav__logo-img" src="img/Black.svg" alt="You tube" width="116" height="25">
+      </a>
+      <div class="site-nav__label-search">
+        <input class="site-nav__intput-search" type="search" placeholder="Search" name="search">
+        <button class="site-nav__btn-search" type="submit" aria-label="submit search"></button>
+      </div>
+      
+      <ul class="site-nav__icons">
+        <li class=" site-nav__icons icon-item">
+          <a class="icon-item__link icon-item__link--video" href="#" aria-label="record vidyo"></a>
+        </li>
+        <li class=" site-nav__icons icon-item">
+          <a class="icon-item__link icon-item__link--apps" href="#" aria-label="YouTube apps"></a>
+        </li>
+        <li class=" site-nav__icons icon-item">
+          <a class="icon-item__link icon-item__link--bell" href="#" aria-label="Notifications"></a>
+        </li>
+      </ul>
+      
+      <button class="site-nav__user-link" type="button">
+        <img class="site-nav__user-link-img" src="img/Userpic.jpg" alt="user-img" width="40" height="40" 
+        srcset="img/Userpic.jpg 1x, img/Userpic@2x.jpg 2x">
+      </button>
+    </nav>
+  </header>
+  
+  <main class="site-main">
+    <section class="site-menu site-menu--open">
+      <h2 class="visually-hidden">YouTube menu</h2>
+      <div class="test">
+        <nav class="site-menu__nav">
+          <h3 class="visually-hidden">YouTube navigation</h3>
+          <ul class="site-menu__list">
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--home" href="#">Home</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--trending" href="#">Trending</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--subscriptions" href="#">Subscriptions</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--library" href="#">Library</a>
+            </li>
+          </ul>
+          
+          <ul class="site-menu__list site-menu__list--bottom">
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--history" href="#">History</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--watch" href="#">Watch later</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--favourites" href="#">Favourites</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--liked" href="#">Liked videos</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--music" href="#">Music</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--games" href="#">Games</a>
+            </li>
+          </ul>
+          <button class="site-menu__nav-btn" type="button">Show more</button>
+        </nav>
+        
+        <div class="site-menu__subs">
+          <h3 class="site-menu__subs-title">Subscriptions</h3>
+          <ul class="site-menu__list">
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--gussie" href="#">Gussie Singleton</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--nora" href="#">Nora Francis</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--belle" href="#">Belle Briggs</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--enuci" href="#">Belle Briggs</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--emma" href="#">Belle Briggs</a>
+            </li>
+            <li class="site-menu__item">
+              <a class="site-menu__link site-menu__link--leah" href="#">Belle Briggs</a>
+            </li>
+          </ul>
+        </div>
+        
+        <button class="site-menu__btn-seting" type="button">Setting</button>
+        
+      </div>
+    </section>
+    
+    <div class="main-content">
+      <section class="site-contect">
+        <h2 class="visually-hidden">contect</h2>
+        <div class="site-content__title-wrapper">
+          <img class="site-content__title-img" src="img/dolli.png" alt="Dollie Blair" width="50" height="50"
+          srcset="img/dolli.png 1x, img/dolli@2x.png 2x">
+          <h2 class="site-contect__title">Dollie Blair</h2>
+        </div>
+        
+        <ul class="site-content__list intro-js"></ul>
+      </section>
+      
+      <section class="site-contect">
+        <h2 class="site-contect__title">Recommended</h2>
+        
+        <ul class="site-content__list recomended-big-js"></ul>
+      </section>
+      
+      <section class="site-contect">
+        <h2 class="visually-hidden">contect</h2>
+        <div class="site-content__title-wrapper">
+          <img class="site-content__title-img" src="img/Oval.png" alt="oval" width="50" height="50"
+          srcset="img/Oval.png 1x, img/Oval@2x.png 2x">
+          <h2 class="site-contect__title">Dollie Blair</h2>
+          <span class="site-content__title-additional">Recommended channel for you</span>
+        </div>
+        
+        <ul class="site-content__list recomended-js"></ul>
+      </section>
+
+      <section class="site-contect">
+        <h2 class="site-contect__title">Watch later</h2>
+        
+        <ul class="site-content__list watch-later-js"></ul>
+      </section>
+    </div>
+  </main>
+  
+  
+  
+<template class="recomended-templete">
+  <li class="site-content__item content-item">
+    <div class="content-item__additional">
+      <button class="content-item__btn btn-later-js" type="button">
+        <span class="content-item__btn-text">watch later</span>
+      </button>
+      <button class="content-item__btn content-item__btn--add" type="button">
+        <span class="content-item__btn-text">add to queue</span>
+      </button>
+    </div>
+    <a class="content-item__link" href="#">
+      <div class="content-item__inner-time">
+        <time class="content-item__time recomended-time" datetime="04:15">04:15</time>
+        <img class="content-item__img recomended-img" src="" alt="first vidyo" width="250" height="150">
+      </div>
+      <h3 class="content-item__title recomended-title">A Brief History Of Creation</h3>
+      <div class="content-item__inner">
+        <span class="content-item__views recomended-views">80k views</span>
+        <span class="content-item__ago recomended-ago">3 days ago</span>
+        <p class="content-item__name recomended-name">Dollie Blair</p>
+      </div>
+    </a>
+  </li>
+</template>
+  <script src="js/main.js"></script>
+</body>
+</html>

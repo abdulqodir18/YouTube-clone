@@ -1,0 +1,42 @@
+.site-nav__icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.icon-item {
+  margin-right: 50px;
+}
+.icon-item__link {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icon-item__link--video {
+  width: 27px;
+  height: 20px;
+  background-image: url('../img/video.png');
+}
+.icon-item__link--apps {
+  background-image: url('../img/apps.png');
+  width: 21px;
+  height: 21px;
+}
+.icon-item__link--bell {
+  width: 22px;
+  height: 26px;
+  background-image: url('../img/bell.png');
+}
+
+@media only screen and (max-width:1450px) {
+  .icon-item {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width:600px) {
+  .site-nav__icons {
+    display: none;
+  }
+}
